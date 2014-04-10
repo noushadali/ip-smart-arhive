@@ -2,7 +2,7 @@ This group is responsible for the programming module, which involves creating in
 
 *Team Members:*<br>
 * Anusca Andrei<br>
-* Berea Stefan<br>
-* Jalaboi Raluca<br>
-* Secareanu Andrei<br>
-* Spiridon Bogdan
+ Berea Stefan<br>
+ Jalaboi Raluca<br>
+ Secareanu Andrei<br>
+ Spiridon Bogdan
