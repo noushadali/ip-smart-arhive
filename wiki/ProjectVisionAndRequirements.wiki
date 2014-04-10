@@ -3,13 +3,13 @@
 O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 
 
 2.Actionari si interese<br>
-Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor.
+Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor.<br>
 Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii. 
 
 
 3.Actori<br>
-Utilizatorul: Clientul care foloseste aplicatia.
-Baza de date locala: Baza de date in care sunt stocate modificarile pentru fiecare fisier(?)
+Utilizatorul: Clientul care foloseste aplicatia.<br>
+Baza de date locala: Baza de date in care sunt stocate modificarile pentru fiecare fisier(?)<br>
 Lucene: Libraria care se ocupa cu indexarea continutului din fisiere.
 
 
@@ -22,8 +22,8 @@ Utilizatorul deschide aplicatia iar in partea stanga este lista de foldere prega
 Utilizatorul deschide aplicatia iar in partea stanga este lista de foldere aflate sub monitorizare. In momentul in care clientul da click pe un folder din partea stanga, sub folderul respectiv apare lista de fisiere si subdirectoare.
 
 4.3 Scenariu comparare fisiere<br>
-Atunci cand utilizatorul va selecta un fisier, vor aparea doua combobox-uri ce vor contine toate versiunile fisierului respectiv, ordonate cronologic. Utilizatorul va selecta din primul combobox o varianta si din al doilea o alta (sau aceeasi) varianta, pentru ca ulterior acestea sa poata fi comparate.
-Dupa ce a selectat cele doua variante, apasa butonul de check ce va determina aparitia unei noi ferestre, cu diferentele marcate dintre cele doua versiuni.
+Atunci cand utilizatorul va selecta un fisier, vor aparea doua combobox-uri ce vor contine toate versiunile fisierului respectiv, ordonate cronologic. Utilizatorul va selecta din primul combobox o varianta si din al doilea o alta (sau aceeasi) varianta, pentru ca ulterior acestea sa poata fi comparate.<br>
+Dupa ce a selectat cele doua variante, apasa butonul de check ce va determina aparitia unei noi ferestre, cu diferentele marcate dintre cele doua versiuni.<br>
 Diferentele vor fi identificate la nivel de cuvant, folosind metodele puse la dispozitie de libraria Apache Lucene (prin crearea de indecsi si analizarea lor). De exemplu: in cazul in care s-a observat o greseala in scrierea unui anumit cuvant (plaat in loc de plat) si aceasta eroare a fost rectificata intr-o versiune mai noua, aceasta modificare va putea fi vizualizata prin analizarea log-ului modificarilor.
 In cazul in care fisierul selectat a fost sters, se va afisa doar versiunea sa arhivata, alaturi de un mesaj corespunzator. Un comportament asemanator va fi generat si in momentul in care va fi identificat un fisier abia creat.
 
