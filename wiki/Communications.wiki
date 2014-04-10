@@ -1,7 +1,12 @@
 This group communicates with every team in order to make sure that all the members are up to date regarding their duties, manages the interaction between teams, and informs the supervisor about project updates or eventual errors that might have occurred, giving him weekly reports.
 
-Team Members: Afilipoie Marius Gabriel
-              Alexescu Diana
-              Puisor Monica
-              Toderas Calin
-              Veringa Andreea
+Team Members: 
+Afilipoie Marius Gabriel
+              
+Alexescu Diana
+              
+Puisor Monica
+              
+Toderas Calin
+              
+Veringa Andreea
