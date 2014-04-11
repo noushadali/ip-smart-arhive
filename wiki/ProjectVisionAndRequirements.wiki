@@ -4,7 +4,7 @@ Fisa de cerinte
 1.Descriere<br><br>
 O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 	
 
-2.Actionari si interese<br>
+2.Actionari si interese<br><br>
 Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor;<br>
 Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii;
 
