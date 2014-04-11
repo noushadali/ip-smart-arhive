@@ -1,7 +1,7 @@
 #labels Phase-Requirements
 Fisa de cerinte
 
-1.Descriere<br>
+1.Descriere<br><br>
 O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 	
 
 2.Actionari si interese<br>
