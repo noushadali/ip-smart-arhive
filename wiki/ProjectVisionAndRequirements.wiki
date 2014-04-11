@@ -1,31 +1,101 @@
 #labels Phase-Requirements
-1.Descriere<br>
-O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 
+Fisa de cerinte
 
-2.Actionari si interese<br>
-Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor.<br>
-Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii. 
+1.Descriere
+O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 	
 
-
-3.Actori<br>
-Utilizatorul: Clientul care foloseste aplicatia.<br>
-Baza de date locala: Baza de date in care sunt stocate modificarile pentru fiecare fisier(?)<br>
-Lucene: Libraria care se ocupa cu indexarea continutului din fisiere.
+2.Actionari si interese
+Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor;
+Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii;
 
 
-4.Scenarii de utilizare<br>
+3.Actori
+Utilizatorul: clientul care foloseste aplicatia;
+Baza de date locala: locul in care sunt stocate modificarile pentru fiecare fisier;
+Lucene: libraria folosita pentru indexarea continutului din fisiere;
+Fisier: obiecte indexate de aplicatie;
+Folder: obiecte monitorizate de aplicatie;
+Pagina web: obiect indexat de aplicatie
+
+
+
+
+
+4.Scenarii de utilizare
  
-4.1 Adaugare folder spre monitorizare<br>
-Utilizatorul deschide aplicatia iar in partea stanga este lista de foldere pregatite pentru monitorizare. In partea din stanga jos a aplicatiei va fi un buton “Adauga folder”. In momentul apasarii butonului se deschide o noua fereastra in care utilizatorul poate selecta un nou folder care sa fie adaugat la lista folderelor monitorizate.
+4.1 Adaugare folder spre monitorizare
+
+Utilizatorul deschide aplicatia
+Click in partea stanga pe butonul “Add f/F”
+Se deschide o fereastra
+Utilizatorul selecteaza fisierul/folderul dorit
+Daca fisierul/folderul este deja monitorizat apare dialog: “fisier aflat sub monitorizare”
+Daca apare o eroare un dialog va sesiza acest lucru(ex: drepturi)
+Daca fisierul/folderul este adaugat cu succes apare dialog: ”Succes!”
+Utilizatorul inchide aplicatia 
+
  
-4.2 Utilizatorul da click pe un folder monitorizat<br>
-Utilizatorul deschide aplicatia iar in partea stanga este lista de foldere aflate sub monitorizare. In momentul in care clientul da click pe un folder din partea stanga, sub folderul respectiv apare lista de fisiere si subdirectoare.
+4.2 Utilizatorul da click pe un folder monitorizat
 
-4.3 Scenariu comparare fisiere<br>
-Atunci cand utilizatorul va selecta un fisier, vor aparea doua combobox-uri ce vor contine toate versiunile fisierului respectiv, ordonate cronologic. Utilizatorul va selecta din primul combobox o varianta si din al doilea o alta (sau aceeasi) varianta, pentru ca ulterior acestea sa poata fi comparate.<br>
-Dupa ce a selectat cele doua variante, apasa butonul de check ce va determina aparitia unei noi ferestre, cu diferentele marcate dintre cele doua versiuni.<br>
-Diferentele vor fi identificate la nivel de cuvant, folosind metodele puse la dispozitie de libraria Apache Lucene (prin crearea de indecsi si analizarea lor). De exemplu: in cazul in care s-a observat o greseala in scrierea unui anumit cuvant (plaat in loc de plat) si aceasta eroare a fost rectificata intr-o versiune mai noua, aceasta modificare va putea fi vizualizata prin analizarea log-ului modificarilor.
-In cazul in care fisierul selectat a fost sters, se va afisa doar versiunea sa arhivata, alaturi de un mesaj corespunzator. Un comportament asemanator va fi generat si in momentul in care va fi identificat un fisier abia creat.
+Utilizatorul se afla in aplicatie
+Da click in File Tree pe unul din foldere 
+Sub acesta se va desena lista de fisiere si subfoldere
 
-4.4 Scenariu vizualizare versiune anterioara<br>
-Atunci cand utilizatorul va selecta un fisier, vor aparea doua combobox-uri ce vor contine toate versiunile fisierului respectiv, ordonate cronologic. Alaturi de fiecare din acestea va fi un buton de afisare “open”. Utilizatorul va selecta pentru fiecare fisier versiunea ce doreste sa o vizualizeze si va apasa butonul “open” care va deschide fisierul respectiv.
+4.3 Scenariu comparare fisiere
+
+Utilizatorul se afla in aplicatie
+Utilizatorul da click pe un fisier in File Tree
+Partea din dreapta a aplicatiei se imparte in 2 parti egale (P1 si P2)
+In P1 este afisat continutul actual al fisierului
+In P2 este afisata o lista cu versiunile anterioare in functie de indexari, sortate cronologic
+
+Utilizatorul selecteaza o versiune anterioara din P2
+
+Utilizatorul da click pe “x” din partea sus din P1
+Apare lista cu versiunile anterioare (la fel cu P2, 2.3*)
+Utilizatorul da click pe versiunea dorita din P1
+Utilizatorul da click pe versiunea dorita din P2
+
+Este afisat continutul fisierelor memorat pentru versiunea respectiva si sunt marcate diferentele dintre cele doua fisiere
+Utilizatorul poate selecta alt fisier sau inchide una sau ambele reprezentari si revine la un pas precedent.
+
+
+4.4 Scenariu vizualizare fisier
+
+Utilizatorul se afla in aplicatie
+Utilizatorul da dublu-click pe fisierul ce doreste sa-l vizualizeze
+Fisierul este deschis in partea dreapta a aplicatiei/Fisierul este deschis cu aplicatie nativa din sistemul de operare.
+
+4.5 Adaugare pagina web
+
+Utilizatorul se afla in aplicatie
+Utilizatorul da click pe butonul “Add link”
+Se deschide o fereastra noua specifica acestei operatii
+Utilizatorul introduce link-ul in textbox-ul precedat de “Link:”
+In cazul unei erori apare un dialog cu mesajul corespunzator
+Altfel apare un preview al paginii de la linkul dorit si utilizatorul da click pe butonul add
+Daca a fost adaugata o pagina web aceasta va aparea in File Tree in folderul Web Pages
+
+
+
+
+
+
+4.6 Actualizare indecsi
+
+Utilizatorul se afla in aplicatie
+
+Utilizatorul poate selecta tinand apasata tasta Ctrl fisierele si folderele pentru care doreste sa se refaca indexul (caz pentru subgrup)
+Apare butonul “Refresh index” 
+Utilizatorul apasa acest buton
+Aplicatia porneste actualizarea indecsilor
+In cazul in care unele fisiere au fost sterse acestea vor fi eliminate din File Tree
+La finalizarea operatiei este prezentat un raport sau o eroare in functie de motivul opririi
+
+Utilizatorul selecteaza din meniul de sus butonul “Index” care va desfasura in jos un meniu
+Din acest meniu da click pe optiunea “Update Index”
+Se executa operatiile incepand cu pasul 2.3
+
+Utilizatorul selecteaza din meniul de sus butonul “Index” care va desfasura in jos un meniu
+Din acest meniu da click pe optiunea “Settings”
+Apare o fereastra cu setarile actuale pentru index in care utilizatorul poate seta timpul/momentul actualizarilor
