@@ -9,7 +9,7 @@ Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoa
 Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii;
 
 
-3.Actori<br>
+3.Actori<br><br>
 Utilizatorul: clientul care foloseste aplicatia;<br>
 Baza de date locala: locul in care sunt stocate modificarile pentru fiecare fisier;<br>
 Lucene: libraria folosita pentru indexarea continutului din fisiere;
