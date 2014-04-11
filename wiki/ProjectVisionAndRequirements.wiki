@@ -52,7 +52,7 @@ In P2 este afisata o lista cu versiunile anterioare in functie de indexari, sort
 Utilizatorul selecteaza o versiune anterioara din P2<br>
 
 Utilizatorul da click pe “x” din partea sus din P1<br>
-Apare lista cu versiunile anterioare (la fel cu P2, 2.3*)<br>
+Apare lista cu versiunile anterioare (la fel cu P2, 2.3#)<br>
 Utilizatorul da click pe versiunea dorita din P1<br>
 Utilizatorul da click pe versiunea dorita din P2<br>
 
