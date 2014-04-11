@@ -1,15 +1,15 @@
 #labels Phase-Requirements
 Fisa de cerinte
 
-1.Descriere<br><br>
+*1.Descriere*<br><br>
 O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 	
 
-2.Actionari si interese<br><br>
+*2.Actionari si interese*<br><br>
 Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor;<br>
 Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii;
 
 
-3.Actori<br><br>
+*3.Actori*<br><br>
 Utilizatorul: clientul care foloseste aplicatia;<br>
 Baza de date locala: locul in care sunt stocate modificarile pentru fiecare fisier;<br>
 Lucene: libraria folosita pentru indexarea continutului din fisiere;
@@ -21,9 +21,9 @@ Pagina web: obiect indexat de aplicatie<br>
 
 
 
-4.Scenarii de utilizare<br>
+*4.Scenarii de utilizare*<br>
  
-4.1 Adaugare folder spre monitorizare<br>
+*4.1 Adaugare folder spre monitorizare*<br>
 
 Utilizatorul deschide aplicatia<br>
 Click in partea stanga pe butonul “Add f/F”<br>
@@ -35,13 +35,13 @@ Daca fisierul/folderul este adaugat cu succes apare dialog: ”Succes!”<br>
 Utilizatorul inchide aplicatia <br>
 
  
-4.2 Utilizatorul da click pe un folder monitorizat<br>
+*4.2 Utilizatorul da click pe un folder monitorizat*<br>
 
 Utilizatorul se afla in aplicatie<br>
 Da click in File Tree pe unul din foldere <br>
 Sub acesta se va desena lista de fisiere si subfoldere<br>
 
-4.3 Scenariu comparare fisiere<br>
+*4.3 Scenariu comparare fisiere*<br>
 
 Utilizatorul se afla in aplicatie<br>
 Utilizatorul da click pe un fisier in File Tree<br>
@@ -60,13 +60,13 @@ Este afisat continutul fisierelor memorat pentru versiunea respectiva si sunt ma
 Utilizatorul poate selecta alt fisier sau inchide una sau ambele reprezentari si revine la un pas precedent.<br>
 
 
-4.4 Scenariu vizualizare fisier<br>
+*4.4 Scenariu vizualizare fisier*<br>
 
 Utilizatorul se afla in aplicatie<br>
 Utilizatorul da dublu-click pe fisierul ce doreste sa-l vizualizeze<br>
 Fisierul este deschis in partea dreapta a aplicatiei/Fisierul este deschis cu aplicatie nativa din sistemul de operare.<br>
 
-4.5 Adaugare pagina web<br>
+*4.5 Adaugare pagina web*<br>
 
 Utilizatorul se afla in aplicatie<br>
 Utilizatorul da click pe butonul “Add link”<br>
@@ -81,7 +81,7 @@ Daca a fost adaugata o pagina web aceasta va aparea in File Tree in folderul Web
 
 
 
-4.6 Actualizare indecsi<br>
+*4.6 Actualizare indecsi*<br>
 
 Utilizatorul se afla in aplicatie<br>
 
