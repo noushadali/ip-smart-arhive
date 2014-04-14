@@ -1,100 +1,95 @@
 #labels Phase-Requirements
+*1.Description*<br><br>
+A company wants to develop a desktop application that allows its clients to monitor user data or the content of a web page. Any modification upon the content of a file / web page will lead to dating, archiving and writing in a log file. The client will have the possibility of comparing two versions of the same file / web page (content, size, modification date) with the help of a user interface.  	
 
-*1.Descriere*<br><br>
-O firma doreste sa puna la dispozitia clientilor o aplicatie desktop care sa permita monitorizarea datelor utilizatorului sau continutul unei pagini web. Orice modificare a continutului unui fisier/pagina web va duce la datarea, arhivarea si insemnarea lor intr-un registru (log). Clientul va avea posibiliatatea de a compara doua versiuni ale aceluiasi fisier/pagina web (continut, dimensiune, data modificarii) in baza unei interfete grafice. 	
-
-*2.Actionari si interese*<br><br>
-Firma: ofera utilizatorilor aplicatiei un sistem de monitorizare a unor directoare si de arhivare a fisierelor;<br>
-Utilizatorul: are acces la continutul proiectului, poate vizualiza un jurnal al modificarilor si momentul la care acestea au fost facute. De asemenea poate compara versiuni diferite ale aceluiasi fisier in functie de continut,dimensiune sau data modificarii;
+*2.Shareholders and interests*<br><br>
+•The company: offers the application’s users a monitoring system for directories and a file-archiving feature.<br>
+•The user: has full access to the project’s content, can visualize a log file which contains details about the modifications and about the date when they were made. The client can also compare two different versions of the same file based on the content, size or date of modification.
 
 
-*3.Actori*<br><br>
-Utilizatorul: clientul care foloseste aplicatia;<br>
-Baza de date locala: locul in care sunt stocate modificarile pentru fiecare fisier;<br>
-Lucene: libraria folosita pentru indexarea continutului din fisiere;
-Fisier: obiecte indexate de aplicatie;<br>
-Folder: obiecte monitorizate de aplicatie;<br>
-Pagina web: obiect indexat de aplicatie<br>
-
+*3.Actors*<br><br>
+•	The user: the client that uses the application.<br>
+•	The local database: the place where all the modifications made upon a file are stored.<br>
+•	Lucene: the library used for indexing the content of the files.<br>
+•	File: objects that are indexed by the application.<br>
+•	Folder: objects that are monitored by the application.<br>
+•	Web page: object that is indexed by the application.<br>
 
 
 
 
-*4.Scenarii de utilizare*<br>
+
+*4.Use-case scenarios*<br>
  
-*4.1 Adaugare folder spre monitorizare*<br>
+*4.1 Adding a folder to be monitored*<br>
 
-Utilizatorul deschide aplicatia<br>
-Click in partea stanga pe butonul “Add f/F”<br>
-Se deschide o fereastra<br>
-Utilizatorul selecteaza fisierul/folderul dorit<br>
-Daca fisierul/folderul este deja monitorizat apare dialog: “fisier aflat sub monitorizare”<br>
-Daca apare o eroare un dialog va sesiza acest lucru(ex: drepturi)<br>
-Daca fisierul/folderul este adaugat cu succes apare dialog: ”Succes!”<br>
-Utilizatorul inchide aplicatia <br>
+The user opens the application<br>
+Click on the left side on the ‘Add f/F’ button<br>
+A new window opens<br>
+The user selects the desired file/folder<br>
+If the file is already monitored, a dialog box appears with the message: ‘File already monitored’<br>
+If an error occurs, a dialog box will notify the user about it (e.g. rights)<br>
+If the file/folder is added successfully, a dialog box with the message ‘Success’ will appear<br>
+The user closes the application<br>
+
 
  
-*4.2 Utilizatorul da click pe un folder monitorizat*<br>
+*4.2 The user clicks on a monitored file*<br>
 
-Utilizatorul se afla in aplicatie<br>
-Da click in File Tree pe unul din foldere <br>
-Sub acesta se va desena lista de fisiere si subfoldere<br>
+The user has opened the application<br>
+Clicks on one of the folders in the File Tree <br>
+Under this folder, the list with all the sub-folders and files will <br>
 
-*4.3 Scenariu comparare fisiere*<br>
+*4.3 File-comparing scenario*<br>
 
-Utilizatorul se afla in aplicatie<br>
-Utilizatorul da click pe un fisier in File Tree<br>
-Partea din dreapta a aplicatiei se imparte in 2 parti egale (P1 si P2)<br>
-In P1 este afisat continutul actual al fisierului<br>
-In P2 este afisata o lista cu versiunile anterioare in functie de indexari, sortate cronologic<br>
+The user has opened the application<br>
+Clicks on one of the files in the File Tree<br>
+The right side of the GUI will split in two equal parts (P1 and P2)<br>
+P1 contains the actual file content<br>
+P2 contains a list with the previous versions based on indexing process, sorted by date (!)<br>
 
-Utilizatorul selecteaza o versiune anterioara din P2<br>
+The user selects a previous version from P2<br>
 
-Utilizatorul da click pe “x” din partea sus din P1<br>
-Apare lista cu versiunile anterioare (la fel cu P2, 2.3#)<br>
-Utilizatorul da click pe versiunea dorita din P1<br>
-Utilizatorul da click pe versiunea dorita din P2<br>
+The user clicks on the ‘x’ in the top side of P1<br>
+The list with previous versions appears (will be identical with P2 as mentioned in the (!) point)<br>
+The user selects the desired version from P1<br>
+The user selects the desired version from P2<br>
 
-Este afisat continutul fisierelor memorat pentru versiunea respectiva si sunt marcate diferentele dintre cele doua fisiere<br>
-Utilizatorul poate selecta alt fisier sau inchide una sau ambele reprezentari si revine la un pas precedent.<br>
-
-
-*4.4 Scenariu vizualizare fisier*<br>
-
-Utilizatorul se afla in aplicatie<br>
-Utilizatorul da dublu-click pe fisierul ce doreste sa-l vizualizeze<br>
-Fisierul este deschis in partea dreapta a aplicatiei/Fisierul este deschis cu aplicatie nativa din sistemul de operare.<br>
-
-*4.5 Adaugare pagina web*<br>
-
-Utilizatorul se afla in aplicatie<br>
-Utilizatorul da click pe butonul “Add link”<br>
-Se deschide o fereastra noua specifica acestei operatii<br>
-Utilizatorul introduce link-ul in textbox-ul precedat de “Link:”<br>
-In cazul unei erori apare un dialog cu mesajul corespunzator<br>
-Altfel apare un preview al paginii de la linkul dorit si utilizatorul da click pe butonul add<br>
-Daca a fost adaugata o pagina web aceasta va aparea in File Tree in folderul Web Pages<br>
+The content for that particular version of those 2 files is displayed and the differences between them are marked<br>
+The user can select another file or can close one or both representations and comes back to an earlier step<br>
 
 
+*4.4 View file scenario*<br>
 
+The user has opened the application<br>
+The user double-clicks on the desired file<br>
+The file is opened in the right side of the GUI/The file is opened with the operating system’s native application specific to that particular type of file<br>
 
+*4.5 Adding a web page*<br>
 
+The user has opened the application<br>
+The user clicks on the ‘Add link’ button<br>
+A new specific window opens<br>
+The user types the link in the ‘Link:’ textbox<br>
+In case of error, an appropriate dialog box pops up<br>
+Otherwise, a preview of that page appears and the user will click on the ‘Add link’ button<br>
+If a web page has been added, it will be displayed in File Tree in the Web Pages folder<br>
 
-*4.6 Actualizare indecsi*<br>
+*4.6 Index update*<br>
 
-Utilizatorul se afla in aplicatie<br>
+The user has opened the application<br>
 
-Utilizatorul poate selecta tinand apasata tasta Ctrl fisierele si folderele pentru care doreste sa se refaca indexul (caz pentru subgrup)<br>
-Apare butonul “Refresh index” <br>
-Utilizatorul apasa acest buton<br>
-Aplicatia porneste actualizarea indecsilor<br>
-In cazul in care unele fisiere au fost sterse acestea vor fi eliminate din File Tree<br>
-La finalizarea operatiei este prezentat un raport sau o eroare in functie de motivul opririi<br>
+The user can select by holding CTRL the files and folders which need an index update (subgroup case)<br>
+The ‘Refresh index’ button appears <br>
+The user presses this button  <br>
+The application starts updating the indexes (!!!)<br>
+In case that some files have been deleted, these will be automatically erased from File Tree<br>
+When the operation is completed, a report or an error is displayed, according to the operation’s stopping pointi<br>
 
-Utilizatorul selecteaza din meniul de sus butonul “Index” care va desfasura in jos un meniu<br>
-Din acest meniu da click pe optiunea “Update Index”<br>
-Se executa operatiile incepand cu pasul 2.3<br>
+The user selects the ‘Index’ button from the top side menu; this will reveal a new menu<br>
+From this new menu, the user clicks on ‘Update Index’<br>
+The operations starting from the step (!!!) are executed<br>
 
-Utilizatorul selecteaza din meniul de sus butonul “Index” care va desfasura in jos un meniu<br>
-Din acest meniu da click pe optiunea “Settings”<br>
-Apare o fereastra cu setarile actuale pentru index in care utilizatorul poate seta timpul/momentul actualizarilor
+The user selects the ‘Index’ button from the top side menu; this will reveal a new menu<br>
+From this menu, the user clicks on ‘Settings’<br>
+A window with the actual settings for the index is displayed; from here, he can set the time/date for updating
