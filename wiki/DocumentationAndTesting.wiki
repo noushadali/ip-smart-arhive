@@ -6,4 +6,5 @@ This group makes research and creates the documentation of the project, based on
 Catz Tudor<br>
 Curca Marius<br>
 Rusu Razvan<br>
-Cornel Tamas
+Cornel Tamas<br>
+Oana Corniciuc
