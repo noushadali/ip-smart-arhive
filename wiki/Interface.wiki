@@ -3,10 +3,14 @@
 This group is responsible for the practical use of the application and creates the Graphical User Interface.
 
 *Team Members:*<br>
-Barsan Ionut<br>
-Crasi Andrei<br>
-Negrus Stefan<br>
-Pojar Andrei<br>
-Ravar Ioana<br>
-Timpu Mihaela<br>
-Vlad Iulian Alexandru<br>
+<li>Barsan Ionut</li><br>
+<li>Crasi Andrei</li><br>
+<li>Negrus Stefan</li><br>
+<li>Pojar Andrei</li><br>
+<li>Ravar Ioana</li><br>
+<li>Timpu-Cuna Mihaela</li><br>
+<li>Vlad Iulian Alexandru</li><br><br><br>
+
+<font color="red" size="7"> *WEEK 5:* </font>
+<font color="red" size="5"><ul> <li> <u>*INDEXING TEAM:*</u> 
+Finish the implementation for this module - _*Deadline: 16.05.2014*_ 
