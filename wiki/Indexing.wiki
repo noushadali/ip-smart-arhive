@@ -3,8 +3,13 @@
 This group is responsible for the programming module, which involves creating indexes for every document and/or web page in order to detect differences between the original versions and the current ones.
 
 *Team Members:*<br>
-Anusca Andrei<br>
-Berea Stefan<br>
-Jalaboi Raluca<br>
-Secareanu Andrei<br>
-Spiridon Bogdan
+<li>Anusca Andrei</li><br>
+<li>Berea Stefan</li><br>
+<li>Jalaboi Raluca</li><br>
+<li>Secareanu Andrei</li><br>
+<li>Spiridon Bogdan<br><br><br>
+
+
+<font color="red" size="6"> *WEEK 5:* </font>
+<font color="red" size="4"><ul> <li> <u>*INDEXING TEAM:*</u> 
+Finish the implementation for this module - _*Deadline: 16.05.2014*_ 
