@@ -3,9 +3,9 @@
 This group makes research and creates the documentation of the project, based on the activity of the Interface and Indexing teams, and also provides various types of tests for the application.
 
 *Team Members:*<br>
-Catz Tudor<br>
-Curca Marius<br>
-Rusu Razvan<br>
-Cornel Tamas<br>
-Oana Corniciuc<br>
-Cosmin Sparhat
+<li>Catz Tudor</li><br>
+<li>Curca Marius</li><br>
+<li>Rusu Razvan</li><br>
+<li>Cornel Tamas</li><br>
+<li>Oana Corniciuc</li><br>
+<li>Cosmin Sparhat</li><br><br><br>
