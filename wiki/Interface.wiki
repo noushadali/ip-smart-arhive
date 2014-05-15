@@ -10,7 +10,3 @@ This group is responsible for the practical use of the application and creates t
 <li>Ravar Ioana</li><br>
 <li>Timpu-Cuna Mihaela</li><br>
 <li>Vlad Iulian Alexandru</li><br><br><br>
-
-<font color="red" size="6"> *WEEK 5:* </font>
-<font color="red" size="4"><ul> <li> <u>*INTERFACE TEAM:*</u> 
-Finish the implementation for this module - _*Deadline: 16.05.2014*_ 
