@@ -8,4 +8,13 @@ This group makes research and creates the documentation of the project, based on
 <li>Rusu Razvan</li><br>
 <li>Cornel Tamas</li><br>
 <li>Oana Corniciuc</li><br>
-<li>Cosmin Sparhat</li><br><br><br>
+<li>Cosmin Sparhat</li><br><br>
+
+
+<p><font color="red" size="4"> *TASKS FOR WEEK 6 - _DOCUMENTATION & TESTING TEAM_:* </font>
+<font color="red" size="3">
+<ol>
+<li> Generate tests for the application - _Deadline: 18.05.2014_ </li>
+<li> Create Test Reports - _Deadline: 21.05.2014_ </li>
+</ol>
+</font>
