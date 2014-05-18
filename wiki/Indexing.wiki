@@ -13,7 +13,6 @@ This group is responsible for the programming module, which involves creating in
 <p><font color="red" size="4"> *TASKS FOR WEEK 6 - _INTERFACE & INDEXING TEAMS_:* </font>
 <font color="red" size="3">
 <ol>
-<li> ~~~Create an improved version of the application - _Deadline: 18.05.2014_~~~(Done) </li>
 <li> Repair errors reported by the testing team - _Deadline: 23.05.2014_ </li>
 </ol>
 </font>
