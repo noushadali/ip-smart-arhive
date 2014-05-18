@@ -10,7 +10,7 @@ This group is responsible for the programming module, which involves creating in
 <li>Spiridon Bogdan<br><br><br>
 
 
-<p><font color="red" size="4"> *TASKS FOR WEEK 6 - _INTERFACE & INDEXING TEAMS_:* </font>
+<p><font color="red" size="4"> *TASKS FOR WEEK 6:* </font>
 <font color="red" size="3">
 <ol>
 <li> Repair errors reported by the testing team - _Deadline: 23.05.2014_ </li>
