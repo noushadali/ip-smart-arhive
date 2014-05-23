@@ -16,6 +16,6 @@ This group makes research and creates the documentation of the project, based on
 <ol>
 <li> ~~Generate tests for the application - _Deadline: 18.05.2014_ ~~ </li>
 <li> ~~Create Test Reports - _Deadline: 21.05.2014_ ~~</li>
-<li> Update the application's manual - _Deadline: 22.05.2014_ ~~</li>
+<li> ~~Update the application's manual - _Deadline: 22.05.2014_ ~~</li>
 </ol>
 </font>
