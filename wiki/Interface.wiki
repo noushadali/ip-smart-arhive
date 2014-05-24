@@ -12,10 +12,10 @@ This group is responsible for the practical use of the application and creates t
 <li>Vlad Iulian Alexandru</li><br><br><br>
 
 
-<p><font color="red" size="4"> *TASKS FOR WEEK 6:* </font>
+<p><font color="red" size="4"> *TASKS FOR WEEK 7:* </font>
 <font color="red" size="3">
 <ol>
-<li> ~~Create an improved version of the application - _Deadline: 18.05.2014_~~ (Done) </li>
-<li> ~~Repair errors reported by the testing team - _Deadline: 23.05.2014_~~ </li>
+
+<li> Repair errors reported by the Testing team - _Deadline: 26.05.2014_ </li>
 </ol>
 </font>
