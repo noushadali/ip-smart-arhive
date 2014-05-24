@@ -1,4 +1,4 @@
-#labels Phase-Implementation,Phase-Design,Phase-Requirements
+#labels Phase-Implementation,Phase-Design
 *Submodule*<br>
 This group is responsible for the practical use of the application and creates the Graphical User Interface.
 
