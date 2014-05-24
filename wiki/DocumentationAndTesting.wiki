@@ -11,7 +11,7 @@ This group makes research and creates the documentation of the project, based on
 <li>Cosmin Sparhat</li><br><br>
 
 
-<p><font color="red" size="4"> *TASKS FOR WEEK 6 - _DOCUMENTATION & TESTING TEAM_:* </font>
+<p><font color="red" size="4"> *TASKS FOR WEEK 7 - _DOCUMENTATION & TESTING TEAM_:* </font>
 <font color="red" size="3">
 <ol>
 <li> Generate more detailed tests for the application, including JUnit tests - _Deadline: 26.05.2014_  </li>
