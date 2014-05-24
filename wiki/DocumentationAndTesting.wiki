@@ -1,4 +1,4 @@
-#labels Phase-QA,Phase-Deploy,Featured,Phase-Support
+#labels Phase-QA,Phase-Deploy,Phase-Support
 *Submodule*<br>
 This group makes research and creates the documentation of the project, based on the activity of the Interface and Indexing teams, and also provides various types of tests for the application.
 
