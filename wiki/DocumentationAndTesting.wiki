@@ -15,7 +15,7 @@ This group makes research and creates the documentation of the project, based on
 <font color="red" size="3">
 <ol>
 <li> Generate more detailed tests for the application, including JUnit tests - _Deadline: 26.05.2014_  </li>
-<li> Revise Test Reports - _Deadline: 26.05.2014_ </li>
+<li> ~~Revise Test Reports - _Deadline: 26.05.2014_~~(Finished) </li>
 <li> ~~Update the application's manual - _Deadline: 26.05.2014_~~ (Finished) </li>
 </ol>
 </font>
