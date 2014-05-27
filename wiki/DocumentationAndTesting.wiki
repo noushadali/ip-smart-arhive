@@ -4,8 +4,8 @@ This group makes research and creates the documentation of the project, based on
 
 *Team Members:*<br>
 <li>Catz Tudor</li><br>
+<li>Corniciuc Oana</li><br>
 <li>Curca Marius</li><br>
 <li>Rusu Razvan</li><br>
-<li>Cornel Tamas</li><br>
-<li>Oana Corniciuc</li><br>
-<li>Cosmin Sparhat</li><br><br>
+<li>Sparhat Cosmin</li><br><br>
+<li>Tamas Cornel</li><br>
