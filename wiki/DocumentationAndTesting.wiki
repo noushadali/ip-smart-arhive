@@ -8,4 +8,4 @@ This group makes research and creates the documentation of the project, based on
 <li>Curca Marius</li><br>
 <li>Rusu Razvan</li><br>
 <li>Sparhat Cosmin</li><br><br>
-<li>Tamas Cornel</li><br>
+<li>Tamas Cornel</li>
