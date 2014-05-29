@@ -9,13 +9,4 @@ This group is responsible for the practical use of the application and creates t
 <li>Pojar Andrei</li><br>
 <li>Ravar Ioana</li><br>
 <li>Timpu-Cuna Mihaela</li><br>
-<li>Vlad Iulian Alexandru</li><br><br><br>
-
-
-<p><font color="red" size="4"> *TASKS FOR WEEK 7:* </font>
-<font color="red" size="3">
-<ol>
-
-<li> Repair errors reported by the Testing team - _Deadline: 30.05.2014_ </li>
-</ol>
-</font>
+<li>Vlad Iulian Alexandru</li>
