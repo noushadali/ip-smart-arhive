@@ -6,4 +6,4 @@ This group communicates with every team in order to make sure that all the membe
 <li>Alexescu Diana </li><br>
 <li>Puisoru Monica </li><br>
 <li>Toderas Calin </li><br>          
-<li>Veringa Andreea </li><br><br><br>
+<li>Veringa Andreea </li>
