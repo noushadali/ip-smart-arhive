@@ -1,0 +1,9 @@
+**Submodule**<br>
+This group communicates with every team in order to make sure that all the members are up to date regarding their duties, manages the interaction between teams, and informs the supervisor about project updates or eventual errors that might have occurred, giving him weekly reports.<br>
+<br>
+<b>Team Members:</b> <br>
+<li>Afilipoie Marius Gabriel </li><br>
+<li>Alexescu Diana </li><br>
+<li>Puisoru Monica </li><br>
+<li>Toderas Calin </li><br>
+<li>Veringa Andreea </li>

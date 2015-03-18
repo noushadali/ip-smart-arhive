@@ -1,0 +1,94 @@
+**1.Description**<br><br>
+A company wants to develop a desktop application that allows its clients to monitor user data or the content of a web page. Any modification upon the content of a file / web page will lead to dating, archiving and writing in a log file. The client will have the possibility of comparing two versions of the same file / web page (content, size, modification date) with the help of a user interface.<br>
+<br>
+<b>2.Shareholders and interests</b><br><br>
+•The company: offers the application’s users a monitoring system for directories and a file-archiving feature.<br>
+•The user: has full access to the project’s content, can visualize a log file which contains details about the modifications and about the date when they were made. The client can also compare two different versions of the same file based on the content, size or date of modification.<br>
+<br>
+<br>
+<b>3.Actors</b><br><br>
+•	The user: the client that uses the application.<br>
+•	The local database: the place where all the modifications made upon a file are stored.<br>
+•	Lucene: the library used for indexing the content of the files.<br>
+•	File: objects that are indexed by the application.<br>
+•	Folder: objects that are monitored by the application.<br>
+•	Web page: object that is indexed by the application.<br>
+
+
+
+
+
+<b>4.Use-case scenarios</b><br>
+
+<b>4.1 Adding a folder to be monitored</b><br>
+
+The user opens the application<br>
+Click on the left side on the ‘Add f/F’ button<br>
+A new window opens<br>
+The user selects the desired file/folder<br>
+If the file is already monitored, a dialog box appears with the message: ‘File already monitored’<br>
+If an error occurs, a dialog box will notify the user about it (e.g. rights)<br>
+If the file/folder is added successfully, a dialog box with the message ‘Success’ will appear<br>
+The user closes the application<br>
+
+
+
+<b>4.2 The user clicks on a monitored file</b><br>
+
+The user has opened the application<br>
+Clicks on one of the folders in the File Tree <br>
+Under this folder, the list with all the sub-folders and files will <br>
+
+<b>4.3 File-comparing scenario</b><br>
+
+The user has opened the application<br>
+Clicks on one of the files in the File Tree<br>
+The right side of the GUI will split in two equal parts (P1 and P2)<br>
+P1 contains the actual file content<br>
+P2 contains a list with the previous versions based on indexing process, sorted by date (!)<br>
+
+The user selects a previous version from P2<br>
+
+The user clicks on the ‘x’ in the top side of P1<br>
+The list with previous versions appears (will be identical with P2 as mentioned in the (!) point)<br>
+The user selects the desired version from P1<br>
+The user selects the desired version from P2<br>
+
+The content for that particular version of those 2 files is displayed and the differences between them are marked<br>
+The user can select another file or can close one or both representations and comes back to an earlier step<br>
+
+
+<b>4.4 View file scenario</b><br>
+
+The user has opened the application<br>
+The user double-clicks on the desired file<br>
+The file is opened in the right side of the GUI/The file is opened with the operating system’s native application specific to that particular type of file<br>
+
+<b>4.5 Adding a web page</b><br>
+
+The user has opened the application<br>
+The user clicks on the ‘Add link’ button<br>
+A new specific window opens<br>
+The user types the link in the ‘Link:’ textbox<br>
+In case of error, an appropriate dialog box pops up<br>
+Otherwise, a preview of that page appears and the user will click on the ‘Add link’ button<br>
+If a web page has been added, it will be displayed in File Tree in the Web Pages folder<br>
+
+<b>4.6 Index update</b><br>
+
+The user has opened the application<br>
+
+The user can select by holding CTRL the files and folders which need an index update (subgroup case)<br>
+The ‘Refresh index’ button appears <br>
+The user presses this button  <br>
+The application starts updating the indexes (!!!)<br>
+In case that some files have been deleted, these will be automatically erased from File Tree<br>
+When the operation is completed, a report or an error is displayed, according to the operation’s stopping pointi<br>
+
+The user selects the ‘Index’ button from the top side menu; this will reveal a new menu<br>
+From this new menu, the user clicks on ‘Update Index’<br>
+The operations starting from the step (!!!) are executed<br>
+
+The user selects the ‘Index’ button from the top side menu; this will reveal a new menu<br>
+From this menu, the user clicks on ‘Settings’<br>
+A window with the actual settings for the index is displayed; from here, he can set the time/date for updating
